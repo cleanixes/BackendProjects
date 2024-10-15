@@ -15,15 +15,24 @@ Definition: An enum is a collection of related values, usually defined as a list
 Usage: Enums make your code more readable and maintainable. Instead of using arbitrary integers or strings to represent states or categories, you can use meaningful names.
 
 Examples: 
+
 from enum import Enum
 
 class Col(Enum):
+
+
     RED = 1
+    
     GREEN = 2
+    
     BLUE = 3
+    
 print(Col(1)) - "Col.RED"
+
 print(Col(GREEN))  - "Col.GREEN"
+
 print(Col['GREEN'])  - "Col.GREEN"
+
 print(Col.GREEN.value) - 2
     
 ## input
