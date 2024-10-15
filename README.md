@@ -51,3 +51,8 @@ users = ['Dave', 'John', 'Sara']
 data = ['Dave', 42, True]
 
 emptylist = []
+
+print("Dave" in emptylist) - will check if the string is in the emptylist
+
+you can print the index like [0] will give first element
+#### this is important, an index of [-1] will give the last element, serving as 0 on the end side, [-2] is second to last, etc.
