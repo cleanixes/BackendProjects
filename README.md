@@ -17,11 +17,14 @@ Usage: Enums make your code more readable and maintainable. Instead of using arb
 Examples: 
 from enum import Enum
 
-class Color(Enum):
+class Col(Enum):
     RED = 1
     GREEN = 2
     BLUE = 3
-
+print(Col(1)) - "Col.RED"
+print(Col(GREEN))  - "Col.GREEN"
+print(Col['GREEN'])  - "Col.GREEN"
+print(Col.GREEN.value) - 2
     
 ## input
 value = input('Please enter a value:\n')
