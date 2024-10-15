@@ -45,7 +45,7 @@ Similar to scanners .next
 #### sys.exit(") will print stuff and end code
 for sys.exit, import sys is needed
 
-### lists and tuples
+## lists and tuples
 users = ['Dave', 'John', 'Sara']
 
 data = ['Dave', 42, True]
@@ -85,3 +85,8 @@ del users will delete the whole list
 users.clear will empty the list, users, and will then return an empty list of the users is printed
 
 users.sort in this case sorts the list alpha
+when sorting, lowercase strings are after every uppercase
+
+users.sort(key=str.lower) will sort the users list and make them all lower case
+
+.reverse will reverse the list, if reverse=true inside of sort function, it will sort and reverse
