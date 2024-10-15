@@ -34,7 +34,8 @@ print(Col(GREEN))  - "Col.GREEN"
 print(Col['GREEN'])  - "Col.GREEN"
 
 print(Col.GREEN.value) - 2
-    
+
+can use .replace to get rid of Col.
 ## input
 value = input('Please enter a value:\n')
 print(value)
@@ -43,3 +44,10 @@ Similar to scanners .next
 
 #### sys.exit(") will print stuff and end code
 for sys.exit, import sys is needed
+
+### lists and tuples
+users = ['Dave', 'John', 'Sara']
+
+data = ['Dave', 42, True]
+
+emptylist = []
