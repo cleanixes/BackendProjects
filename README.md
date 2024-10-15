@@ -64,3 +64,24 @@ print(len(data)) will print the amount of elements/items in the list
 
 .index is the same as indexof in java, users.index('Sara') will print the index of the element Sara in the list users
 
+adding an element to a list, at the end, users.append('elsa') will add an element 'elsa', can also use +=[list]
+append uses () and += uses []
+
+users.extend is same as append, but takes multiple elements
+
+users.insert(0, 'Bob') will insert 'Bob' at 0 index of the list called users
+
+users[2:2] = ['Eddie', 'Alex'] will insert the two names at index 2 and ends at index 2, therefore these two will be placed between the 2nd and 3rd element in the list
+
+users[1:3] = ['Robet', 'JPJ'] will replace the 2nd and 3rd element, since there is a range of 2 and starts at the second element
+
+users.remove('Bob') will get rid of Bob from the list
+
+print(users.pop()) will remove the last element of the list, and will return the element
+
+del users[0] will delete whatever element is in the 0 index
+del users will delete the whole list
+
+users.clear will empty the list, users, and will then return an empty list of the users is printed
+
+users.sort in this case sorts the list alpha
