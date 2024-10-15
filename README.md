@@ -1,6 +1,6 @@
 # Notes
 
-#### imports
+### imports
 import sys for like sys.exit
 import random for .random like rockpaper scissors
 
@@ -29,5 +29,5 @@ print(value)
 
 Similar to scanners .next
 
-### sys.exit(") will print stuff and end code
+#### sys.exit(") will print stuff and end code
 for sys.exit, import sys is needed
