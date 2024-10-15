@@ -15,6 +15,17 @@ computerChoice = random.choice("123")
 computer = int(computerChoice)
 
 print("")
-print("You chose " + choice + ".")
-print("Python chose " + computer + ".")
+print("You chose " + str(choice) + ".")
+print("Python chose " + str(computer) + ".")
 print("")
+
+if choice == 1 and computer == 3:
+    print("You win!")
+elif choice == 2 and computer == 1:
+    print("You win!")
+elif choice == 3 and computer == 2:
+    print("You win!")
+elif choice == computer:
+    print("You Tie!")
+else:
+    print("python wins")
