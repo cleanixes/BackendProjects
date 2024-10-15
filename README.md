@@ -55,4 +55,12 @@ emptylist = []
 print("Dave" in emptylist) - will check if the string is in the emptylist
 
 you can print the index like [0] will give first element
-#### this is important, an index of [-1] will give the last element, serving as 0 on the end side, [-2] is second to last, etc.
+#### This is important, an index of [-1] will give the last element, serving as 0 on the end side, [-2] is second to last, etc.
+print(users[0:2]) will print all elements from the first index all the way to the element in the index before 2, so element at index 0, and at index 1, but not 2, in this case
+print(users[1:]) will print all elements from the second index onward, till the end, if no second parameter is given
+print(users[-3:-1]) can take negative, backtracks.
+
+print(len(data)) will print the amount of elements/items in the list
+
+.index is the same as indexof in java, users.index('Sara') will print the index of the element Sara in the list users
+
