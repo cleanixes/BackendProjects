@@ -90,3 +90,9 @@ when sorting, lowercase strings are after every uppercase
 users.sort(key=str.lower) will sort the users list and make them all lower case
 
 .reverse will reverse the list, if reverse=true inside of sort function, it will sort and reverse
+
+.copy() will copy a lsit like nums.copy()
+myusers = list(users)
+mycopy = users[:]
+
+will both do the same ^
